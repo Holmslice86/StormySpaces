@@ -1,6 +1,18 @@
-bin
-obj
+/bin
+
+/obj
+
 *.suo
+
 *.user
 
-D:\Code\GitHub\StormySpaces\StormySpaces\packages\*
+/StormySpaces/StormySpaces/packages/
+
+/StormySpaces/PresentationLayer/StormySpaces.Web/obj
+
+/StormySpaces/PresentationLayer/StormySpaces.Web/bin
+
+/StormySpaces/StormySpaces/*.suo
+
+/StormySpaces/*.user
+

@@ -10,7 +10,6 @@
         var _answer = "Yes";
 
         vm.Answer = _answer;
-        vm.GetStores = _getStores;
     }
 
 })();
