@@ -6,3 +6,4 @@
 /// <reference path="app/app-config.js" />
 /// <reference path="app/app.js" />
 /// <reference path="app/controllers/home-controller.js" />
+/// <reference path="app/controllers/cloud-controller.js" />

@@ -1,1 +1,1 @@
-﻿var stormySpaces = angular.module("stormySpaces", ["ngRoute"]);
+﻿var stormySpaces = angular.module("stormySpaces", ["ngRoute","ngAnimate"]);

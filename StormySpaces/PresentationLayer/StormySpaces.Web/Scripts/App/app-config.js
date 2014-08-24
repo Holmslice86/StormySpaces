@@ -9,14 +9,12 @@
 
     stormySpaces.config(["$routeProvider", appConfig]);
 
-
     function appConfig($routeProvider) {
 
         $routeProvider.when("/", {
-            templateUrl: _baseUrl + "Scripts/App/Views/Home.html",
-            controller: "homeController as vm"
+            templateUrl: _baseUrl + "../Scripts/App/Views/Cloud.html",
+            controller: "cloudController as vm"
         });
-
     }
 
 })();
