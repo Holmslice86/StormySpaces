@@ -1,14 +1,46 @@
 ﻿@{
     ViewBag.Title = "Index";
 }
-<h2>@ViewBag.Title</h2>
 <div class="container-fluid">
-    <div data-ng-view="">
-        
+    <nav class="navbar navbar-default navbar-fixed-top navbar-inverse" role="navigation">
+        <div class="container-fluid">
+            <ul class="nav navbar-nav">
+                <li><a href="#">LOGO</a></li>
+                <li><a href="#">Computer</a></li>
+                <li><a href="#">Tablet</a></li>
+                <li><a href="#">Mobile</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="row">
+        <img class="ignore-padding col-lg-12" src="../../Content/Rainy-Night.jpg" />
     </div>
+    <div style="height: 35px;"></div>
+    <div class="row" style="height: 52px;" >
+        <nav class="ignore-rounded-edges navbar navbar-default navbar-inverse" role="navigation" >
+            <div class="container-fluid" >
+                <div class="row" >
+                    <ul class="nav navbar-nav col-md-12 " >
+                        <li class="col-md-1 col-md-offset-4" ><a href="#" style="z-index:1031;">Home</a></li>
+                        <li class="col-md-1 " ><a href="#" style="z-index:1031;">About</a></li>
+                        <li class="col-md-1 " ><a href="#" style="z-index:1031;">Gallery</a></li>
+                        <li class="col-md-1 " ><a href="#" style="z-index:1031;">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div class="row" style="height: 700px; background-color: white">
 
-    <div>
-        Is Angular Working ?
-        {{vm.Answer}}
+
     </div>
+    <div class="row" style="height: 900px;background-color: #2b2b32">
+
+
+
+    </div>
+    <div class="row" style="height: 300px;"></div>
+    <footer class="row" style=" height: 300px;width: 1920px;background-color: #17181c;z-index:-1;position: fixed;bottom: 0px; right: 0px; text-align: center;">
+        Hello
+    </footer>
 </div>

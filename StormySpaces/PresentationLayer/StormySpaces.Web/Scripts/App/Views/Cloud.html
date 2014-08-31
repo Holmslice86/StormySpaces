@@ -1,5 +1,11 @@
 ﻿
 <div data-ng-controller="cloudController as vm">
-    <canvas id="cloud" width="300" height="225" style="background-color: gainsboro"></canvas>
-    <button class="animate-animation" data-ng-click="vm.DrawRectangle()" data-ng-animate="'animate'" >Draw!</button>
+
+    <div data-ng-if="checked" class="animate-if">
+        <canvas id="cloud" width="300" height="225" style="background-color: gainsboro"></canvas>
+        <button class="" data-ng-click="vm.DrawRectangle()">Draw!</button>
+    </div>
+
+    <input type="checkbox" data-ng-model="checked" data-ng-init="checked=true" />
+
 </div>
