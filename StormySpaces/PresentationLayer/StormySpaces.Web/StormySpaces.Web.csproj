@@ -129,6 +129,9 @@
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Views\web.config" />
     <Content Include="Scripts\App\Dependencies\angular.min.js.map" />
+    <Content Include="Content\Fonts\Rainy Day.otf" />
+    <Content Include="Content\Fonts\Remi.ttf" />
+    <Content Include="Content\Fonts\Perlines.ttf" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

@@ -8,6 +8,61 @@
     border-radius: 0px;
 }
 
+@font-face {
+    font-family: 'Rainy Day';
+    src: url('../Content/fonts/Rainy Day.otf');
+}
+
+@font-face {
+    font-family: 'Perlines';
+    src: url('../Content/fonts/Perlines.ttf');
+}
+
+h2 {
+    font-family: "Rainy Day", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 200px;
+}
+
+h1, h2 {
+    color: #ffffff;
+    position: relative;
+    text-align: center;
+    top: 10%;
+}
+
+.background-picture {
+    height: 400px;
+    background: url(Rainy-Night.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+
+.home-theme {
+    background-color: white;
+    height: 700px;
+}
+
+.gallery-theme {
+    background-color: #2b2b32;
+    height: 800px;
+}
+
+.nav-links {
+    z-index: 1031;
+}
+
+footer {
+    height: 300px;
+    width: 100%;
+    background-color: #17181c;
+    z-index: -1;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    text-align: center;
+}
 
 .animate-if.ng-enter, .animate-if.ng-leave {
     -webkit-transition: all linear 3.5s;
