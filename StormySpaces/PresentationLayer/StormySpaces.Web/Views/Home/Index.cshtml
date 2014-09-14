@@ -1,4 +1,6 @@
-﻿@{
+﻿@using System.Reflection
+@using System.Resources
+@{
     ViewBag.Title = "Index";
 }
 <div class="container-fluid">
@@ -14,7 +16,7 @@
     </nav>
     <div class="row background-picture">
         <h2>Stormy Spaces</h2>
-        <h1>Where creativity rains and poors. </h1>
+        <h1>Where creativity rains and pours. </h1>
     </div>
     <div class="row" style="height: 52px;">
         <nav class="ignore-rounded-edges navbar navbar-default navbar-inverse" role="navigation">
@@ -31,6 +33,21 @@
         </nav>
     </div>
     <div class="row home-theme">
+        <div class="home-main">
+            <div class="col-sm-3">
+
+            </div>
+            <div data-ng-repeat="panel in vm.Panels">
+                <div class="col-sm-3">
+                    <div class="panel panel-default home-panel">
+                        <div class="panel-body">
+                            <span>{{panel.panelHeader}}</span>
+                            {{panel.panelBody}}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
     <div class="row gallery-theme">
     </div>

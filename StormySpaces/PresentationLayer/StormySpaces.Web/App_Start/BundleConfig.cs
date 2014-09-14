@@ -16,7 +16,7 @@ namespace StormySpaces.Web
                        IncludeDirectory("~/Scripts/App/Controllers/", "*.js"));
 
             bundles.Add(new StyleBundle("~/Content/base").Include(
-                "~/Content/style.css"
+                "~/Content/Css/style.css"
                 ));
         }
 

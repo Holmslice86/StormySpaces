@@ -116,7 +116,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Content\Rainy-Night.jpg" />
+    <Content Include="Content\Css\bootstrap-theme.css" />
+    <Content Include="Content\Images\Rainy-Night.jpg" />
     <Content Include="packages.config" />
     <Content Include="Scripts\App\Controllers\cloud-controller.js" />
     <Content Include="Scripts\App\Views\Cloud.html" />
@@ -125,8 +126,8 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Scripts\App\Dependencies\angular-animate.min.js.map" />
     <Content Include="Scripts\App\Dependencies\angular-route.min.js.map" />
-    <Content Include="Content\bootstrap-theme.css.map" />
-    <Content Include="Content\bootstrap.css.map" />
+    <Content Include="Content\Css\bootstrap-theme.css.map" />
+    <Content Include="Content\Css\bootstrap.css.map" />
     <Content Include="Views\web.config" />
     <Content Include="Scripts\App\Dependencies\angular.min.js.map" />
     <Content Include="Content\Fonts\Rainy Day.otf" />
@@ -140,11 +141,10 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Content\bootstrap-theme.css" />
-    <Content Include="Content\bootstrap-theme.min.css" />
-    <Content Include="Content\bootstrap.css" />
-    <Content Include="Content\bootstrap.min.css" />
-    <Content Include="Content\style.css" />
+    <Content Include="Content\Css\bootstrap-theme.min.css" />
+    <Content Include="Content\Css\bootstrap.css" />
+    <Content Include="Content\Css\bootstrap.min.css" />
+    <Content Include="Content\Css\style.css" />
     <Content Include="Global.asax" />
     <Content Include="Scripts\App\app-config.js" />
     <Content Include="Scripts\App\app.js" />
@@ -164,6 +164,11 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebConfigApi.cs" />
+    <Compile Include="Content\ResourceFiles\OutputText.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>OutputText.resx</DependentUpon>
+    </Compile>
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -173,6 +178,12 @@
   <ItemGroup>
     <Folder Include="Scripts\App\Repositories\" />
     <Folder Include="Scripts\App\Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Content\ResourceFiles\OutputText.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>OutputText.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
