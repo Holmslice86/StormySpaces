@@ -120,6 +120,7 @@
     <Content Include="Content\Images\Rainy-Night.jpg" />
     <Content Include="packages.config" />
     <Content Include="Scripts\App\Controllers\cloud-controller.js" />
+    <Content Include="Scripts\App\Dependencies\jquery-2.1.1.min.js" />
     <Content Include="Scripts\App\Views\Cloud.html" />
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
@@ -133,6 +134,7 @@
     <Content Include="Content\Fonts\Rainy Day.otf" />
     <Content Include="Content\Fonts\Remi.ttf" />
     <Content Include="Content\Fonts\Perlines.ttf" />
+    <Content Include="Scripts\App\Dependencies\jquery-2.1.1.min.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
