@@ -31,7 +31,8 @@ h1, h2 {
     text-align: center;
     top: 10%;
 }
-li{
+
+li {
     font-family: "Rainy Day", sans-serif;
     font-weight: bolder;
     font-style: normal;
@@ -62,10 +63,6 @@ span {
     height: 800px;
 }
 
-.nav-links {
-    z-index: 1031;
-}
-
 footer {
     height: 300px;
     width: 100%;
@@ -78,16 +75,19 @@ footer {
     text-align: center;
 }
 
-.home-main {
-    
-}
-
 .home-panel {
     height: 350px;
 }
 
 
-
+.fixedNav {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 1030;
+   
+}
 
 
 

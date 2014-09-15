@@ -25,27 +25,6 @@
         }
         ];
 
-
-        var floatingNav = document.getElementById("floatingNav");
-        var navDistanceFromTop = 500;
-        var isNavFixed = false;
-        angular.element($window).bind("scroll", function () {
-
-            var windowTop = $window.pageYOffset;
-            var shouldBeFixed = windowTop > navDistanceFromTop;
-
-            if (shouldBeFixed && !isNavFixed) {
-                floatingNav.style.position({
-                    position: 'fixed',
-                    top: 0
-                });
-            } else {
-
-            }
-
-        });
-
-
         vm.Answer = _answer;
         vm.Panels = _panels;
     }

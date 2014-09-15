@@ -13,6 +13,7 @@ namespace StormySpaces.Web
                        "~/Scripts/App/app-config.js").
                        IncludeDirectory("~/Scripts/App/Repositories/", "*.js").
                        IncludeDirectory("~/Scripts/App/Services/", "*.js").
+                       IncludeDirectory("~/Scripts/App/Directives/", "*.js").
                        IncludeDirectory("~/Scripts/App/Controllers/", "*.js"));
 
             bundles.Add(new StyleBundle("~/Content/base").Include(

@@ -121,6 +121,8 @@
     <Content Include="packages.config" />
     <Content Include="Scripts\App\Controllers\cloud-controller.js" />
     <Content Include="Scripts\App\Dependencies\jquery-2.1.1.min.js" />
+    <Content Include="Scripts\App\Directives\collision-navbar.js" />
+    <Content Include="Scripts\App\Directives\collision-navbar.html" />
     <Content Include="Scripts\App\Views\Cloud.html" />
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
